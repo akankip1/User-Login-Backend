@@ -1,0 +1,103 @@
+.infodiv{
+    font-size: 1.5rem;
+    color: white;
+
+}
+.emaildiv{
+    margin-bottom: 15px;
+}
+.firstname{
+    margin-bottom: 15px;
+}
+.last{
+    margin-bottom: 15px;
+}
+.pwddiv{
+    margin-bottom: 15px;
+}
+.checkdiv{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 1.2rem;
+}
+.signbutton{
+    margin-top: 5px;
+    border-radius: 4px;
+    background-color: greenyellow;
+    font-size: 1.5rem;
+    border: none;
+}
+.signbutton:hover{
+cursor: pointer;
+}
+.signbutton:active{
+
+    transition-delay: 0.15s;
+}
+form{
+    border: solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    border-width: 1.5px;
+    box-shadow: 10px 10px 15px rgb(90, 54, 153);
+    padding-bottom: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: auto;
+
+
+}
+.formdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    z-index: 1000;
+
+
+}
+input{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    width: auto;
+
+}
+.new{
+    display: flex;
+    flex-direction: row;
+}
+.newp{
+    color: white;
+}
+.create{
+    margin-left: 10px;
+    padding-top: 15px;
+
+}
+.createlink{
+    color:aliceblue;
+
+
+}
+.createlink:active{
+    color: black;
+}
+.createbutton{
+    text-decoration: none;
+    color: black;
+}
+.createbutton:active{
+    color: black;
+}
+input::placeholder{
+    color: rgb(67, 55, 168);
+
+    align-items: center;
+}
+@media(max-width:300px) {
+    form,input{
+        width: 70vw;
+    }
+}
